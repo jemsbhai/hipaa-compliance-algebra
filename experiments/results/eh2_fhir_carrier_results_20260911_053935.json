@@ -1,0 +1,1617 @@
+{
+  "timestamp": "20260911_053935",
+  "assessed_at": "2026-09-11T09:39:27Z",
+  "extension_url": "https://jsonld-ex.github.io/ns/fhir/compliance-opinion",
+  "n_bundles_loaded": 100,
+  "n_bundles_annotated": 100,
+  "max_abs_diff_all": 0.0,
+  "extension_bytes_min": 393,
+  "extension_bytes_max": 393,
+  "bundle_growth_pct_max": 1.0993211625914454,
+  "hypothesis_results": {
+    "H_C1_round_trip_exact": true,
+    "H_C2_nondestructive": true
+  },
+  "per_bundle": [
+    {
+      "file": "Aaron697_Brekke496_2fa15bc7-8866-461a-9000-f739e425860a.json",
+      "patient_id": "5cbc121b-cd71-4428-b8b7-31e53eba8184",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 406028,
+      "bundle_bytes_after": 406862
+    },
+    {
+      "file": "Aaron697_Stiedemann542_41166989-975d-4d17-b9de-17f94cb3eec1.json",
+      "patient_id": "adccf2c3-9dc4-4067-ba23-98982c4875da",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 623207,
+      "bundle_bytes_after": 624041
+    },
+    {
+      "file": "Abby752_Kuvalis369_2b083021-e93f-4991-bf49-fd4f20060ef8.json",
+      "patient_id": "31191928-6acb-4d73-931c-e601cc3a13fa",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 268230,
+      "bundle_bytes_after": 269064
+    },
+    {
+      "file": "Abel832_Connelly992_29e51479-f742-4474-8f8e-d2607d5269f6.json",
+      "patient_id": "67816396-e325-496d-a6ec-c047756b7ce4",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 264235,
+      "bundle_bytes_after": 265069
+    },
+    {
+      "file": "Abraham100_Heller342_262b819a-5193-404a-9787-b7f599358035.json",
+      "patient_id": "b426b062-8273-4b93-a907-de3176c0567d",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 287958,
+      "bundle_bytes_after": 288792
+    },
+    {
+      "file": "Adam631_Cronin387_aff8f143-2375-416f-901d-b0e4c73e3e58.json",
+      "patient_id": "5c818f3d-7051-4b86-8203-1dc624a91804",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 722998,
+      "bundle_bytes_after": 723832
+    },
+    {
+      "file": "Adam631_Shields502_9e2653fc-49e0-4b2e-86f8-e664bbe07be3.json",
+      "patient_id": "346d4b95-5e00-48fe-a21e-076735ca1d74",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 801936,
+      "bundle_bytes_after": 802770
+    },
+    {
+      "file": "Adelaida985_Gulgowski816_86662c9c-fcc8-41a6-a2e8-61270bf8a3b0.json",
+      "patient_id": "668605fe-a8dc-4601-ae48-f5bc24bbea74",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 516200,
+      "bundle_bytes_after": 517034
+    },
+    {
+      "file": "Adolfo777_O'Keefe54_51d71f5e-96e5-4bc0-a656-e27e10dd4f32.json",
+      "patient_id": "b43d3d32-1e9b-4acb-8578-624cdcc99f86",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 274932,
+      "bundle_bytes_after": 275766
+    },
+    {
+      "file": "Adolph80_Turcotte120_52b1b75f-2b8a-4319-9542-7abc39502cab.json",
+      "patient_id": "5dc02d13-5c69-4c36-87d5-16738f088300",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 211285,
+      "bundle_bytes_after": 212119
+    },
+    {
+      "file": "Adolph80_Williamson769_2de9315e-3784-4802-944a-926bcd8febd4.json",
+      "patient_id": "3f8be6b0-15a6-43f4-87f3-1adb737fa598",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 134935,
+      "bundle_bytes_after": 135769
+    },
+    {
+      "file": "Adria871_Ankunding277_89d97565-2497-4d7b-91b0-90543c0e6a9c.json",
+      "patient_id": "7978d71c-094b-459e-92be-2b62f4cf5e6c",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 392641,
+      "bundle_bytes_after": 393475
+    },
+    {
+      "file": "Agnes294_Jenkins714_185d26ad-fb9f-40ae-afb0-94d72827d887.json",
+      "patient_id": "25cc2755-9643-43a9-837c-f79c04ad8916",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 284231,
+      "bundle_bytes_after": 285065
+    },
+    {
+      "file": "Agusti\u2560\u00fcn529_Gonza\u2560\u00fclez124_deb78d57-823a-45a0-81f2-68bdb5f9ee3a.json",
+      "patient_id": "6d6fec2a-b149-49c1-b669-4b7106a7aa72",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 276228,
+      "bundle_bytes_after": 277062
+    },
+    {
+      "file": "Ahmad985_Nader710_71e3d0af-39d4-416c-9bef-12c14f3bb821.json",
+      "patient_id": "8799a4b0-1815-4963-a0da-cb91757a7692",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 124801,
+      "bundle_bytes_after": 125635
+    },
+    {
+      "file": "Akiko835_Runte676_792be1e3-308b-4093-b4fe-42919c8fd458.json",
+      "patient_id": "632b7c1c-9545-4aa7-9fd5-07683139ef13",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 243406,
+      "bundle_bytes_after": 244240
+    },
+    {
+      "file": "Al123_Rosenbaum794_3d88b877-badc-4c1d-b74a-eb2082d6070e.json",
+      "patient_id": "822f82f3-3d03-4ce1-8c2b-14764c244fcf",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 328060,
+      "bundle_bytes_after": 328894
+    },
+    {
+      "file": "Alan320_Wiza601_20123c13-40e7-4134-8a18-58c57be98c74.json",
+      "patient_id": "5434980c-7587-4461-ae4f-bc73143079a9",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 286737,
+      "bundle_bytes_after": 287571
+    },
+    {
+      "file": "Alberto639_Delatorre612_9dedae70-e46d-4de7-becd-dfb8eeaf27e6.json",
+      "patient_id": "763b6101-133a-44bb-ac60-3c097d6c0ba1",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 325339,
+      "bundle_bytes_after": 326173
+    },
+    {
+      "file": "Aldo414_Block661_49a83d35-a1be-48ed-8e20-acdb540462ae.json",
+      "patient_id": "90a26ab7-b593-403f-a732-cad66c03a0f1",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 300947,
+      "bundle_bytes_after": 301781
+    },
+    {
+      "file": "Alejandra902_Villa94_63056f6b-4cb3-4f9b-9a62-c3817991e6a1.json",
+      "patient_id": "763a24b2-3655-44b7-a231-106b766b07a9",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 550091,
+      "bundle_bytes_after": 550925
+    },
+    {
+      "file": "Alejandro916_Treutel973_9080acbd-4ce6-4c72-90fb-feb0872c9806.json",
+      "patient_id": "ad60b8d9-6125-4814-9836-bda34011fe5c",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 172874,
+      "bundle_bytes_after": 173708
+    },
+    {
+      "file": "Alene865_Lubowitz58_d4dcca82-8029-4036-a064-c5eb18291b3e.json",
+      "patient_id": "f63efb83-1566-4865-a251-fdc4d5fa4f6b",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 799560,
+      "bundle_bytes_after": 800394
+    },
+    {
+      "file": "Alesha810_Marks830_1e0a8bd3-3b82-4f17-b1d6-19043aa0db6b.json",
+      "patient_id": "c088b7af-fc41-43cc-ab80-4a9ab8d47cd9",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 280949,
+      "bundle_bytes_after": 281783
+    },
+    {
+      "file": "Alethea978_Crooks415_78480da7-7361-4c99-bfb9-339a403d9ae1.json",
+      "patient_id": "c70e2a78-1e77-4eb1-8215-8b83351cedcf",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 217039,
+      "bundle_bytes_after": 217873
+    },
+    {
+      "file": "Alex454_Prosacco716_ffdeb4e3-eaa0-4139-bf21-2243370b31d0.json",
+      "patient_id": "43079775-bd14-4e91-8b3a-c724af87497e",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 257473,
+      "bundle_bytes_after": 258307
+    },
+    {
+      "file": "Alexis664_Homenick806_a18018af-5b1a-4f47-8ef8-c4a5a6178086.json",
+      "patient_id": "5e705f28-2fc3-4f1e-9433-df79ae3ceede",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 211925,
+      "bundle_bytes_after": 212759
+    },
+    {
+      "file": "Alexis664_Ritchie586_b531d827-de9a-4e2e-a53b-8621bd29f656.json",
+      "patient_id": "2d5e18ff-c50e-4ddc-9391-98670c64f72c",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 338410,
+      "bundle_bytes_after": 339244
+    },
+    {
+      "file": "Alfonso758_Mosciski958_639cdf00-e29e-43c8-97c3-ffe7bd5285a3.json",
+      "patient_id": "e1746953-5040-402f-a67b-7aaccff51e96",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 182242,
+      "bundle_bytes_after": 183076
+    },
+    {
+      "file": "Alfred550_Marvin195_6b116ebf-3402-468b-a41b-2fb7ef3e0043.json",
+      "patient_id": "16cd8a89-062b-446f-a1b8-f3b289fc2c4e",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 142394,
+      "bundle_bytes_after": 143228
+    },
+    {
+      "file": "Alfred550_Schimmel440_417e0431-e087-4c77-8ab2-17f135fdd596.json",
+      "patient_id": "097d1c93-4142-4c08-86ca-4966c35f83f8",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 422758,
+      "bundle_bytes_after": 423592
+    },
+    {
+      "file": "Alfredo17_King743_32be366a-6138-41e4-a41b-fc533ce3dafc.json",
+      "patient_id": "428e4e61-7664-4c20-800d-26ae7f8200e0",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 186107,
+      "bundle_bytes_after": 186941
+    },
+    {
+      "file": "Ali918_Emard19_e1288217-b7d3-4e8a-a953-863b5cd584c6.json",
+      "patient_id": "548bef90-e9da-4128-96c4-3aa6a915af8a",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 796515,
+      "bundle_bytes_after": 797349
+    },
+    {
+      "file": "Ali918_Stokes453_f5aa3408-57b3-4c05-a1d3-e4511b4be50e.json",
+      "patient_id": "9efa37da-5fb5-45da-acba-29e2b2c3d4e1",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 380493,
+      "bundle_bytes_after": 381327
+    },
+    {
+      "file": "Alicia629_Walter473_e2129449-9c68-4155-a826-e22091aa4742.json",
+      "patient_id": "13b01a13-9472-4bf9-a36d-17bdc12612af",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 198620,
+      "bundle_bytes_after": 199454
+    },
+    {
+      "file": "Alina705_Hayes766_d6988cb4-49a3-44cd-a5f5-58e3f16b772e.json",
+      "patient_id": "16524e00-1894-4c71-b673-a4a926c0c544",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 282310,
+      "bundle_bytes_after": 283144
+    },
+    {
+      "file": "Allegra202_Nitzsche158_66d017d6-97ae-4de0-b02c-2c1caa5cddf6.json",
+      "patient_id": "c247e691-cf7a-4ba6-9a62-fcce809e119f",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 785910,
+      "bundle_bytes_after": 786744
+    },
+    {
+      "file": "Alonzo487_Watsica258_ec74f673-77bd-441d-a843-7b4153c5b83d.json",
+      "patient_id": "00e24db2-623e-4f87-bf17-cdb27906bd8f",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 149105,
+      "bundle_bytes_after": 149939
+    },
+    {
+      "file": "Alpha246_Crist667_c0edf1c5-83c0-46df-b3b5-fdcb8f7c8998.json",
+      "patient_id": "e6538157-bc61-4f86-b135-7a498e8be14b",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 651128,
+      "bundle_bytes_after": 651962
+    },
+    {
+      "file": "Alton320_Monahan736_263b8036-1539-4cca-a18a-24f5035ddc40.json",
+      "patient_id": "0256e29d-7bfc-4944-8865-c247814cf97d",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 384707,
+      "bundle_bytes_after": 385541
+    },
+    {
+      "file": "Alvera113_Morissette863_429ddae5-0ff8-41fc-ad45-cc7070b337aa.json",
+      "patient_id": "b53e261e-ee97-48a9-bc79-5b38f319cd4a",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 497169,
+      "bundle_bytes_after": 498003
+    },
+    {
+      "file": "Alvin56_Goldner995_7e0197fe-f6ea-4c8e-816e-97c5da115b92.json",
+      "patient_id": "241559f9-4a38-449f-b3bf-726b8ca71af1",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 89842,
+      "bundle_bytes_after": 90676
+    },
+    {
+      "file": "Amado512_Murazik203_80331c96-bc34-4416-a204-4db5233f9b18.json",
+      "patient_id": "543a7d59-fe25-464d-bacc-e44f9542c938",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 6897977,
+      "bundle_bytes_after": 6898811
+    },
+    {
+      "file": "Amalia471_Harber290_5a83f7e4-428c-4e4e-9942-6cee6f8caf29.json",
+      "patient_id": "fae0279a-a4ce-4723-a431-6b9ec92325aa",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 263325,
+      "bundle_bytes_after": 264159
+    },
+    {
+      "file": "Amalia471_Magan\u2560\u00e2a874_3912696a-0aef-492e-83ef-468262b82966.json",
+      "patient_id": "3ee2738d-74ce-4960-ac49-81e2f54f5c3f",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 405590,
+      "bundle_bytes_after": 406424
+    },
+    {
+      "file": "Amanda238_Dach178_275771b3-1a43-4b14-889d-30d990825c9f.json",
+      "patient_id": "4702b501-25b0-4174-95b1-74cb0f3bbc35",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 911005,
+      "bundle_bytes_after": 911839
+    },
+    {
+      "file": "Ana972_Halvorson124_c5a14f20-416b-4fc6-aee5-bc760d27c19b.json",
+      "patient_id": "5950b660-57ea-41dd-afc1-5fe7bdae6336",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 1000521,
+      "bundle_bytes_after": 1001355
+    },
+    {
+      "file": "Ana_Mari\u2560\u00fca762_Balderas66_7b0c45bd-3266-4e6e-b85f-436e909688b2.json",
+      "patient_id": "3fc9e53d-05e2-43dc-b658-f9be9e32b86b",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 261193,
+      "bundle_bytes_after": 262027
+    },
+    {
+      "file": "Ana_Mari\u2560\u00fca762_Paredes726_c85e59cb-50b9-4ae5-9961-12a5008e640a.json",
+      "patient_id": "ffff2c5e-d4f2-44ae-86aa-9e8c432b8405",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 2207185,
+      "bundle_bytes_after": 2208019
+    },
+    {
+      "file": "Andera917_McKenzie376_e8a0723e-956a-4b12-8a54-9a59970a09fb.json",
+      "patient_id": "2389dd31-c3e8-4590-897f-5a9d2f359e2d",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 232194,
+      "bundle_bytes_after": 233028
+    },
+    {
+      "file": "Andre610_Grimes165_9e89e6a3-e383-47e5-a411-aa9b1f2792aa.json",
+      "patient_id": "bc001ffe-32b3-48f1-9d8f-c3822b525101",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 277003,
+      "bundle_bytes_after": 277837
+    },
+    {
+      "file": "Andrea7_Maya972_35ecae17-e218-4b7d-ac0b-2d39ea2853cd.json",
+      "patient_id": "207ab280-2d58-408e-8301-6444e23c4a8f",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 354273,
+      "bundle_bytes_after": 355107
+    },
+    {
+      "file": "Andrea7_Tello902_82ebd61b-b406-4522-b990-72f562a2cfec.json",
+      "patient_id": "0c6f3ca2-f014-4839-bbb8-1e9af61ff97a",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 909486,
+      "bundle_bytes_after": 910320
+    },
+    {
+      "file": "Andreas188_Dare640_f7f63ca8-d282-4520-9a68-3177e2a5db6f.json",
+      "patient_id": "b98e4960-beeb-41a3-9400-3e07ece715d0",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 695537,
+      "bundle_bytes_after": 696371
+    },
+    {
+      "file": "Andreas188_Hoeger474_cc146f25-f6bf-40c4-98fd-b89cc8e0a757.json",
+      "patient_id": "dd36f923-cc14-41c9-ae40-4c795355ce34",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 737931,
+      "bundle_bytes_after": 738765
+    },
+    {
+      "file": "Andres25_Konopelski743_611e75ee-bca5-4cb4-9ccd-10f4b98e7732.json",
+      "patient_id": "5ec8bfac-b725-4658-aeaa-b1e328773adc",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 201057,
+      "bundle_bytes_after": 201891
+    },
+    {
+      "file": "Andrew29_Trantow673_5447a8a3-6024-4b6d-a30e-44a431754fd6.json",
+      "patient_id": "49340d22-f236-4d3a-8cfc-94696aaf18d0",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 398878,
+      "bundle_bytes_after": 399712
+    },
+    {
+      "file": "Angel97_Swift555_c072e6ad-b03f-4eee-abe0-2dbc93bbadfe.json",
+      "patient_id": "15e20922-0f51-47a0-9345-225906c35fbf",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 390954,
+      "bundle_bytes_after": 391788
+    },
+    {
+      "file": "Angele108_Konopelski743_2c405456-ee6d-475c-b0fe-e8675589845c.json",
+      "patient_id": "29a29d75-4a3a-40f9-a991-262d01d8f71f",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 1950959,
+      "bundle_bytes_after": 1951793
+    },
+    {
+      "file": "Angelika194_Tremblay80_a8aaf0df-ff0e-4511-86cf-cb392e15a878.json",
+      "patient_id": "58ce1160-7bce-488a-a9c6-dbeb5fa41179",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 418085,
+      "bundle_bytes_after": 418919
+    },
+    {
+      "file": "Angle307_McLaughlin530_4fe3a629-ad58-4f0d-a81a-dd5482376a67.json",
+      "patient_id": "bb097cc7-80f2-4ef9-bb49-3a056cf54aa1",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 374434,
+      "bundle_bytes_after": 375268
+    },
+    {
+      "file": "Anibal473_Connelly992_3180f2db-0e2e-43c4-b049-752919b59618.json",
+      "patient_id": "686df75d-1fc7-4a7c-9c02-582ca894ed6a",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 220601,
+      "bundle_bytes_after": 221435
+    },
+    {
+      "file": "Anissa357_Goyette777_4876b417-adb1-4a90-9903-f9ab1757e1e0.json",
+      "patient_id": "05527b74-5dfa-43c7-adad-2984277fef73",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 406594,
+      "bundle_bytes_after": 407428
+    },
+    {
+      "file": "Annabell933_Pfannerstill264_8b45ace6-f8f1-4cfb-bad6-36819f23d804.json",
+      "patient_id": "8b93480d-add7-40cd-998a-d8e5129a03d8",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 861849,
+      "bundle_bytes_after": 862683
+    },
+    {
+      "file": "Anneliese170_Fisher429_98d0b034-ed0f-4140-9736-26cfab776016.json",
+      "patient_id": "c33bf4f2-f9b9-482e-860c-4165f220aa35",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 812709,
+      "bundle_bytes_after": 813543
+    },
+    {
+      "file": "Annemarie794_Heidenreich818_934e20a4-3c1f-450f-a534-25ca9e32b634.json",
+      "patient_id": "62f8e7af-169a-4cf3-80d0-8ad4f4f5817d",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 226653,
+      "bundle_bytes_after": 227487
+    },
+    {
+      "file": "Annmarie79_Quitzon246_85be1084-1e12-49d5-adef-e7e82b833138.json",
+      "patient_id": "8d0182c9-162f-4a0d-9f2f-153cb098a5e3",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 308280,
+      "bundle_bytes_after": 309114
+    },
+    {
+      "file": "Anthony633_Klocko335_e87eb716-9205-4abf-9387-fe4b11a60575.json",
+      "patient_id": "812f7a88-9a55-46f2-8a14-1e64e4af8f8c",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 252782,
+      "bundle_bytes_after": 253616
+    },
+    {
+      "file": "Anthony633_Lueilwitz711_95da048f-5356-4562-b7a5-c4c65175127a.json",
+      "patient_id": "b7e5bb89-740d-4a0d-a1ec-94dff9200f00",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 116287,
+      "bundle_bytes_after": 117121
+    },
+    {
+      "file": "Antione404_Treutel973_959b902e-1857-4ca5-bd69-e0ccc9880214.json",
+      "patient_id": "f1ea52d7-f5e0-42e3-ad80-7fc2f63ed47e",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 413772,
+      "bundle_bytes_after": 414606
+    },
+    {
+      "file": "Antone63_Rogahn59_13f9c3ae-3506-40b8-b087-f30f39388d5c.json",
+      "patient_id": "57055e35-c951-4476-9d82-51c28d69b533",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 174646,
+      "bundle_bytes_after": 175480
+    },
+    {
+      "file": "Antonia30_Kilback373_2d3b21e7-11ef-4dd4-9842-ddac21402a35.json",
+      "patient_id": "1f18e760-de54-483d-8a3e-934f6f2fe892",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 815767,
+      "bundle_bytes_after": 816601
+    },
+    {
+      "file": "Antonio44_Barrientos891_9d9e7f44-9c50-490c-87b4-9a2c77ba17f1.json",
+      "patient_id": "ebfdb80a-a153-4f94-b9a4-0a682f0bdc8e",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 288693,
+      "bundle_bytes_after": 289527
+    },
+    {
+      "file": "Antonio44_Mayer370_89b6a6af-8f08-4341-9dad-e42eb45308cd.json",
+      "patient_id": "5e4b559d-6999-4c91-9256-7c9845d6e167",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 1574177,
+      "bundle_bytes_after": 1575011
+    },
+    {
+      "file": "April374_Gerhold939_e3c6cb9c-5f13-4d78-bc38-d7c005346389.json",
+      "patient_id": "33fd1321-db4a-428b-9996-d2a25508e346",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 330257,
+      "bundle_bytes_after": 331091
+    },
+    {
+      "file": "Archie818_Barrows492_fef3d64f-82b0-47e0-be02-3317c4969826.json",
+      "patient_id": "36b87f5e-a4da-46cc-af88-d9a12cb239e6",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 247399,
+      "bundle_bytes_after": 248233
+    },
+    {
+      "file": "Ardath226_Zboncak558_cb96223c-c32b-45be-8aa7-36795883a060.json",
+      "patient_id": "8ef11370-b5b1-4051-a0f0-7f9982aba39c",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 146204,
+      "bundle_bytes_after": 147038
+    },
+    {
+      "file": "Ardelia466_Larson43_68b95ae3-8732-4948-9345-f3d490bc4ae5.json",
+      "patient_id": "664632b2-1503-42f3-921d-2fa78912f35c",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 75865,
+      "bundle_bytes_after": 76699
+    },
+    {
+      "file": "Arica110_Herman763_c08a8771-4cfb-458f-a248-d4dad06a6e17.json",
+      "patient_id": "d296453f-ff44-4afa-8046-1e47ac2d8ada",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 1023340,
+      "bundle_bytes_after": 1024174
+    },
+    {
+      "file": "Ariel183_Friesen796_1ae87f34-f0c9-4312-91cd-349dd9b790b7.json",
+      "patient_id": "42ee6a1c-7a2a-4343-8bc5-4fba476e0907",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 171785,
+      "bundle_bytes_after": 172619
+    },
+    {
+      "file": "Ariel183_Turner526_6edf069d-ebad-4c90-8192-119fb32c84c1.json",
+      "patient_id": "8d55e3c4-3069-48fa-9ffe-af4c4c72b210",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 628993,
+      "bundle_bytes_after": 629827
+    },
+    {
+      "file": "Arielle168_Marvin195_c76c71f4-7193-4d78-9e36-c99011243b72.json",
+      "patient_id": "9fdc65b5-8ccd-4859-9b23-e69b7e21c1e2",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 642221,
+      "bundle_bytes_after": 643055
+    },
+    {
+      "file": "Armand155_Mills423_9e36e8d9-b864-453f-a2ef-6eac2df7f080.json",
+      "patient_id": "e342dead-57bd-407c-b837-a2fe5b979a47",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 268977,
+      "bundle_bytes_after": 269811
+    },
+    {
+      "file": "Armando772_Kohler843_879c29be-78f6-426a-ab1e-4a572f61a5cd.json",
+      "patient_id": "48ec962a-c1c4-49a2-8ccd-2c7f7e9f0dee",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 181501,
+      "bundle_bytes_after": 182335
+    },
+    {
+      "file": "Arminda86_Muller251_d9490f91-a89c-4bfb-a0b3-59f68bcd6b5e.json",
+      "patient_id": "c7b59aaf-868d-49c9-9489-a0a2b04d402a",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 461112,
+      "bundle_bytes_after": 461946
+    },
+    {
+      "file": "Arnold338_Cassin499_b9b1e82a-d325-4d0f-bed6-f02cd5e4b45b.json",
+      "patient_id": "ad03268d-2e8e-47a7-9191-2bca359b7f38",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 669238,
+      "bundle_bytes_after": 670072
+    },
+    {
+      "file": "Arnold338_Kuhn96_8e9f637d-e5fb-4b57-9c46-8e1ef1de1dbf.json",
+      "patient_id": "ea206443-b280-4a08-abcd-f0ac318fa2a5",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 452054,
+      "bundle_bytes_after": 452888
+    },
+    {
+      "file": "Arron144_Hamill307_bde71dae-bb2d-451f-b845-c260e69abdd6.json",
+      "patient_id": "3a3ba55d-5437-4c9a-943a-93bc004c8f6f",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 218162,
+      "bundle_bytes_after": 218996
+    },
+    {
+      "file": "Art115_Steuber698_1776ace1-393b-4bb6-ba99-4377ea2b9a46.json",
+      "patient_id": "5c4f32d0-57df-411b-9475-3972325ed5f5",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 174776,
+      "bundle_bytes_after": 175610
+    },
+    {
+      "file": "Arturo47_Cormier289_b6db8b3b-db2d-499c-be9d-be5ea89bf0a3.json",
+      "patient_id": "ab691324-7b05-4cda-9918-8d776432bb0a",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 142929,
+      "bundle_bytes_after": 143763
+    },
+    {
+      "file": "Asa127_Flatley871_9c9bb151-29ea-48fe-b75f-63b2bfb8ad94.json",
+      "patient_id": "2c2f2c1d-51cf-4426-9a7b-583b97556533",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 97037,
+      "bundle_bytes_after": 97871
+    },
+    {
+      "file": "Asha251_Kulas532_8d064cb8-df5e-4ac4-ad4b-8f43b93bc16d.json",
+      "patient_id": "728a43f6-819d-41bd-860d-f2ce72979ccb",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 1008984,
+      "bundle_bytes_after": 1009818
+    },
+    {
+      "file": "Ashley34_Fahey393_2e36ee7c-1795-4217-b0f3-05683f6a8e1a.json",
+      "patient_id": "e6282640-3b74-4c7b-b3d8-2f128f983c49",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 365111,
+      "bundle_bytes_after": 365945
+    },
+    {
+      "file": "Audrie782_Howell947_801082c3-4f07-46d3-9ab6-dc648099b376.json",
+      "patient_id": "c2b40f49-4c27-419b-ad34-5c7bcc07781a",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 737275,
+      "bundle_bytes_after": 738109
+    },
+    {
+      "file": "Audrie782_Metz686_f0893217-38a6-43d9-ab12-6fcc1fd5a8c5.json",
+      "patient_id": "aef6dabb-9372-44bc-abf1-f3111812eec7",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 1028014,
+      "bundle_bytes_after": 1028848
+    },
+    {
+      "file": "Audry167_Trantow673_58d27703-9f10-47fc-ba03-9a455874fb58.json",
+      "patient_id": "ae4c5b55-c704-4406-b353-285f9166a489",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 387913,
+      "bundle_bytes_after": 388747
+    },
+    {
+      "file": "Aurore252_Kub800_9b42e5bf-a139-48cd-b0b7-6e99ca903c3a.json",
+      "patient_id": "edb1ebc5-d629-4c43-acf5-b8d1c38d9bd2",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 314786,
+      "bundle_bytes_after": 315620
+    },
+    {
+      "file": "Aurore252_Shanahan202_24b1778f-54bf-4d39-b6b7-6cc780bd3f24.json",
+      "patient_id": "2d75e3a4-f0f6-45dd-8b57-75fb2f303c9e",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 2266068,
+      "bundle_bytes_after": 2266902
+    },
+    {
+      "file": "Ayako221_Kub800_cac7fa38-f58d-4fad-85d4-2a3ea71fe116.json",
+      "patient_id": "ea95f498-7929-4d50-be55-9bf7baee3a8d",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 599544,
+      "bundle_bytes_after": 600378
+    },
+    {
+      "file": "Barabara924_Lockman863_e2b0f8da-4986-4f32-9030-d4c6bf5bc935.json",
+      "patient_id": "57ca2c16-7008-41e5-b338-4758b2fc46f0",
+      "phi_opinion": [
+        8.4431263697287e-09,
+        0.9999992152832762,
+        7.762735974198181e-07,
+        3.814697265625e-06
+      ],
+      "max_abs_diff_bundle_level": 0.0,
+      "max_abs_diff_patient_level": 0.0,
+      "nondestructive": true,
+      "extension_bytes": 393,
+      "bundle_bytes_before": 2056634,
+      "bundle_bytes_after": 2057468
+    }
+  ]
+}

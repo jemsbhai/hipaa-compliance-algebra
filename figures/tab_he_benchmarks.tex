@@ -5,8 +5,9 @@
 
 \begin{table}[t]
 \centering
-\caption{CKKS homomorphic encryption benchmark for Jurisdictional Meet. Accuracy measured as max absolute error vs.\ plaintext across 1000 random opinion pairs. Latency excludes one-time key generation (204\,ms).}
+\caption{CKKS benchmark for Jurisdictional Meet: max absolute error vs.\ plaintext over 1000 random opinion pairs; latency excludes one-time key generation (204\,ms).}
 \label{tab:he_benchmarks}
+\footnotesize
 \begin{tabular}{@{}lcc@{}}
 \toprule
 Metric & Value & Threshold \\
@@ -18,12 +19,12 @@ Metric & Value & Threshold \\
 \quad Constraint violation (normalized) & $2.22 \times 10^{-16}$ & $< 10^{-4}$ \\
 \midrule
 \multicolumn{3}{@{}l}{\textit{Latency ($n=1000$)}} \\
-\quad Encrypt (2 opinions) & 19.26\,ms (p50) & -- \\
-\quad Compute ($J_\sqcap$) & 6.06\,ms (p50) & -- \\
-\quad Decrypt + normalize & 1.93\,ms (p50) & -- \\
+\quad Encrypt (2 opinions) & 19.26\,ms (p50) & n/a \\
+\quad Compute ($J_\sqcap$) & 6.06\,ms (p50) & n/a \\
+\quad Decrypt + normalize & 1.93\,ms (p50) & n/a \\
 \quad Total & 27.34\,ms (p50) & $< 100$\,ms \\
-\quad Plaintext baseline & 0.002\,ms (p50) & -- \\
-\quad Overhead factor & $15{,}186\times$ & -- \\
+\quad Plaintext baseline & 0.002\,ms (p50) & n/a \\
+\quad Overhead factor & $15{,}186\times$ & n/a \\
 \midrule
 \multicolumn{3}{@{}l}{\textit{Chain depth ($n=100$ per depth)}} \\
 \quad Depth 1 & $1.07 \times 10^{-7}$ max & $< 0.001$ \\

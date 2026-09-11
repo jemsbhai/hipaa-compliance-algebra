@@ -9,7 +9,7 @@
 \begin{tikzpicture}
 \begin{axis}[
     width=\columnwidth,
-    height=5.5cm,
+    height=4.4cm,
     xlabel={Identifiers remaining (of 6 present)},
     ylabel={$l_{\text{PHI}}$ (log scale)},
     ymode=log,
@@ -48,6 +48,6 @@
 
 \end{axis}
 \end{tikzpicture}
-\caption{Progressive de-identification of a Synthea patient record. Each identifier removal increases $l_{\text{PHI}}$ by approximately $19\times$ (ratio of absent to present opinion: $0.95/0.05$). Starting from 6 identifiers ($l = 8.44 \times 10^{-9}$), full removal yields $l = 0.397$ ($= 0.95^{18}$). Theory-validated at every step.}
+\caption{Progressive de-identification of a Synthea patient record: each removal raises $l_{\text{PHI}}$ by about $19\times$ (the ratio $0.95/0.05$), from $8.44 \times 10^{-9}$ with 6 identifiers to $0.397 = 0.95^{18}$ after full removal; theory-validated at every step.}
 \label{fig:progressive_deident}
 \end{figure}

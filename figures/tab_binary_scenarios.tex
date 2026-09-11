@@ -5,28 +5,29 @@
 
 \begin{table*}[t]
 \centering
-\caption{Five clinically motivated scenarios comparing binary HIPAA compliance assessment with the proposed algebra. Each scenario demonstrates an epistemic state that binary tools collapse. All algebra values computed using the implemented operators.}
+\caption{Five scenarios in which binary HIPAA compliance assessment collapses an epistemic state that the algebra preserves; all values computed with the implemented operators.}
 \label{tab:binary_scenarios}
-\begin{tabular}{@{}p{3.8cm}p{2.8cm}p{3.2cm}p{5.5cm}@{}}
+\footnotesize
+\begin{tabular}{@{}p{3.6cm}p{2.4cm}p{2.8cm}p{7.7cm}@{}}
 \toprule
 Scenario & Binary Result & Algebra $(l, v, u)$ & Distinction \\
 \midrule
 Conflicting audit evidence (two auditors disagree)
   & 50\% / Inconclusive
   & $(0.085, 0.810, 0.105)$
-  & High $v$ with low $u$ reveals active conflict requiring investigation, not more data. \\[4pt]
+  & High $v$ with low $u$ reveals active conflict requiring investigation, not more data. \\[2pt]
 New vendor (no compliance history)
   & FAIL
   & $(0.000, 0.000, 1.000)$
-  & Ignorance ($u\!=\!1$) is distinct from violation ($v\!=\!1$). Response: gather evidence, not block. \\[4pt]
+  & Ignorance ($u\!=\!1$) is distinct from violation ($v\!=\!1$). Response: gather evidence, not block. \\[2pt]
 BAA chain (hospital, lab, billing)
   & FAIL (any weak link)
   & $(0.176, 0.502, 0.322)$
-  & Quantifies 80.9\% total degradation. Billing link identified as primary risk driver. \\[4pt]
+  & Quantifies 80.9\% total degradation. Billing link identified as primary risk driver. \\[2pt]
 Stale assessment (2 years old)
   & PASS (no expiration)
   & $(0.225, 0.013, 0.762)$
-  & $l$ decays 0.900\,$\to$\,0.225, $u$ grows 0.050\,$\to$\,0.762. Triggers reassessment. \\[4pt]
+  & $l$ decays 0.900\,$\to$\,0.225, $u$ grows 0.050\,$\to$\,0.762. Triggers reassessment. \\[2pt]
 HIPAA + GDPR (uncertain vs.\ violated)
   & FAIL (both cases)
   & $(0.352, 0.184, 0.464)$

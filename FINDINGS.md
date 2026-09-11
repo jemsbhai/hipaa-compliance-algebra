@@ -176,3 +176,88 @@ Key findings:
   over 2 years while u grows from 0.050 to 0.762. Binary gives PASS forever.
 - Scenario 3 quantifies supply chain risk: billing link causes 80.9%
   total compliance degradation.
+
+## Camera-ready verification pass (2026-09-11)
+
+**Status:** read-only checks of the accepted PDF against experiments/results/*.json
+
+- Theorem 2 as printed (t* = p^n / l_expert) gives 0.817 for n = 6, p = 0.95, as
+  Reviewer 2 computed. The printed 0.724 is 0.95^6 * 0.99^12 / 0.90, the Synthea
+  scenario in eh2_phase_e_results.json (e4: threshold_synthea_theoretical =
+  0.72397), which uses q = 0.99 for the 12 never-present categories. The
+  theorem statement had dropped q. Corrected in the paper; the numbers were right.
+- Table VI 6-month row printed (0.636, 0.035, 0.329, P 0.800); eh4_results.json
+  scenario 4 (base_rate 0.5, half_life 365 d, elapsed 180 d) gives
+  (0.6394, 0.0355, 0.3251) and P = 0.802. 3-year P printed 0.554; exact
+  0.1125 + 0.5 * 0.8812 = 0.5531 -> 0.553. Both corrected.
+- V-C crossing sentence: P(1 yr) = 0.713 > 0.70, P(2 yr) = 0.606 < 0.70, so the
+  crossing is between one and two years, not between six months and one year.
+- Conclusion HE claim: depths 3 to 5 have max errors 3.97e-6, 1.95e-6, 2.65e-6, so
+  "within 1e-7 across depths up to five" was wrong; now stated per single operation
+  (1.19e-7) and across depths (4.0e-6).
+- Workflow Step 4 composite printed (0.293, 0.474, 0.233); e3 scenario A gives
+  (0.2934, 0.4750, 0.2316). Corrected to (0.293, 0.475, 0.232).
+- Workflow Step 1 P = 8.45e-9 is correct (e3 raw scenario pp = 8.446e-9).
+- Regulatory quote "review and modify ... as needed" is 45 CFR 164.306(e)
+  (Security Rule), not 164.530(i). Corrected, with the Privacy Rule sections
+  164.502(e) and 164.514 now cited to the Privacy Rule entry.
+- Tables I, II, III, V, VII and Fig. 1 and Fig. 3 spot-checked: match.
+
+## EH2 addendum -- FHIR R4 compliance opinion carrier
+
+**Date:** 2026-09-11
+**Status:** COMPLETE (results/eh2_fhir_carrier_results.json)
+**Library:** jsonld-ex commit 15ca423 (fhir_attach_compliance_opinion /
+fhir_read_compliance_opinion, 23 unit tests, 423 tests passing in the touched suites)
+
+- Carrier: complex extension in Resource.meta.extension, URL
+  https://jsonld-ex.github.io/ns/fhir/compliance-opinion, sub-extensions
+  belief / disbelief / uncertainty / baseRate (valueDecimal), optional regime
+  (valueCode) and assessedAt (valueDateTime). Distinct from the clinical
+  carrier URL .../fhir/opinion, which attaches to the qualified element.
+- Exercise: PHI Classification opinion of each of the 100 Synthea bundles
+  attached at Bundle.meta and Patient.meta, serialized to JSON text, reloaded,
+  read back.
+- H-C1 round trip exact: ACCEPTED (max |read - original| = 0.0 over all
+  components, both levels, 100/100 bundles).
+- H-C2 non-destructive: ACCEPTED (stripping the extension restores the
+  original bundle dict, 100/100).
+- Extension size 393 bytes (compact JSON, with regime and assessedAt);
+  bundle growth at most 1.0993% (two attachments per bundle).
+
+## EH5 -- Sensitivity to assumed confidences
+
+**Date:** 2026-09-11
+**Status:** COMPLETE (results/eh5_results.json); design pre-registered in EH5_DESIGN.md
+**Tests:** experiments/tests/test_eh5_eh6.py (11 passed)
+
+- A. Grid (p in {0.80..0.999} x q in {0.90..0.999}, 24 points): Expert Determination
+  at t = 0.85 (l_ED = 0.765) beats Safe Harbor at every p <= 0.95; reversals only
+  at p >= 0.99 with q >= 0.99 (l_SH = 0.835 at 0.99/0.99, 0.930 at 0.99/0.999,
+  0.881 at 0.999/0.99, 0.982 at 0.999/0.999). H-EH5.1 ACCEPTED.
+- B. Heterogeneous removal confidences (Beta around 0.95 / 0.99, 10,000 draws,
+  seed 42): kappa = 100: l_SH median 0.653, p05 0.580, p95 0.721, expert wins
+  99.8%; kappa = 20: median 0.656, p05 0.494, p95 0.798, expert wins 88.9%.
+  H-EH5.2 ACCEPTED.
+- C. Heterogeneous presence (Bernoulli per category at the empirical rates of the
+  7 E5 profiles; dates 7/7, MRN 6/7, ...): n_present 1 to 11 (mean 4.55);
+  l_PHI median 4.997e-7, p95 5.823e-4, max 3.987e-2. H-EH5.3 ACCEPTED.
+- D. Base rates in {0.1, 0.3, 0.5, 0.7, 0.9}: (l, v, u) identical to the last bit
+  for Safe Harbor, Expert, BAA chain, dual regime (max diff 0.0); P ranges
+  0.652..0.679, 0.784..0.938, 0.594..0.673, 0.296..0.481. H-EH5.4 ACCEPTED.
+
+## EH6 -- Two-auditor scenario under three combination rules
+
+**Date:** 2026-09-11
+**Status:** COMPLETE (results/eh6_results.json)
+
+- Inputs: A = (0.85, 0.05, 0.10), B = (0.10, 0.80, 0.10) (EH4 scenario 1).
+- J_meet: (0.085, 0.810, 0.105) (matches EH4).
+- Dempster's rule on {T, F}: conflict mass K = 0.685 discarded; result
+  (0.571, 0.397, 0.032): favors lawfulness with 3% uncertainty. H-EH6.1 ACCEPTED.
+- SL cumulative fusion: (0.500, 0.447, 0.053): conflict also normalized away.
+  H-EH6.2 ACCEPTED. Lesson: the paper's conservative treatment of conflict comes
+  from choosing the meet (conjunction) rather than an evidence-accumulation rule,
+  not from Subjective Logic as such.
+- Interval probabilities [0.85, 0.95] and [0.10, 0.20] are disjoint: conflict is
+  visible but no combined value exists.

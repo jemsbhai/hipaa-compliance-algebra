@@ -9,7 +9,7 @@
 \begin{tikzpicture}
 \begin{axis}[
     width=\columnwidth,
-    height=5.5cm,
+    height=4.4cm,
     xlabel={Expert trust level $t$},
     ylabel={De-identification confidence $l$},
     xmin=0, xmax=1.05,
@@ -47,6 +47,6 @@
 
 \end{axis}
 \end{tikzpicture}
-\caption{Expert Determination vs.\ Safe Harbor de-identification confidence across trust levels. Crossover points (Theorem~2): Expert exceeds Safe Harbor when $t > p^{n} q^{18-n}/l_{\text{expert}}$. With all 18 identifiers removed at $p = 0.95$, an expert trusted above $t^* = 0.441$ yields higher confidence than Safe Harbor; for the Synthea profile ($n = 6$, $q = 0.99$) the threshold is $t^* = 0.724$.}
+\caption{Expert Determination vs.\ Safe Harbor de-identification confidence across trust levels. Expert exceeds Safe Harbor when $t > p^{n} q^{18-n}/l_{\text{expert}}$ (Theorem~2): $t^* = 0.441$ with all 18 identifiers removed at $p = 0.95$, and $t^* = 0.724$ for the Synthea profile ($n = 6$, $q = 0.99$).}
 \label{fig:trust_crossover}
 \end{figure}
