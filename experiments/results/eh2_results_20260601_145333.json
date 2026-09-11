@@ -1,0 +1,464 @@
+{
+  "timestamp": "20260601_145333",
+  "n_patients": 100,
+  "n_bundles": 100,
+  "phase_a": {
+    "n_analyzed": 100,
+    "mean_identifiers_present": 6.0,
+    "ci_identifiers_present": [
+      6.0,
+      6.0
+    ],
+    "mean_phi_lawfulness": 8.443126369728699e-09,
+    "ci_phi_lawfulness": [
+      8.443126369728699e-09,
+      8.443126369728699e-09
+    ],
+    "per_patient": [
+      {
+        "id": "5cbc121b-cd71-4428-b8b7-31e53eba8184",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "adccf2c3-9dc4-4067-ba23-98982c4875da",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "31191928-6acb-4d73-931c-e601cc3a13fa",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "67816396-e325-496d-a6ec-c047756b7ce4",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "b426b062-8273-4b93-a907-de3176c0567d",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "5c818f3d-7051-4b86-8203-1dc624a91804",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "346d4b95-5e00-48fe-a21e-076735ca1d74",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "668605fe-a8dc-4601-ae48-f5bc24bbea74",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "b43d3d32-1e9b-4acb-8578-624cdcc99f86",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "5dc02d13-5c69-4c36-87d5-16738f088300",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "3f8be6b0-15a6-43f4-87f3-1adb737fa598",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "7978d71c-094b-459e-92be-2b62f4cf5e6c",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "25cc2755-9643-43a9-837c-f79c04ad8916",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "6d6fec2a-b149-49c1-b669-4b7106a7aa72",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "8799a4b0-1815-4963-a0da-cb91757a7692",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "632b7c1c-9545-4aa7-9fd5-07683139ef13",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "822f82f3-3d03-4ce1-8c2b-14764c244fcf",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "5434980c-7587-4461-ae4f-bc73143079a9",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "763b6101-133a-44bb-ac60-3c097d6c0ba1",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      },
+      {
+        "id": "90a26ab7-b593-403f-a732-cad66c03a0f1",
+        "n_present": 6,
+        "identifiers_present": [
+          "names",
+          "geographic_subdivisions",
+          "dates",
+          "phone_numbers",
+          "social_security_numbers",
+          "other_unique_identifiers"
+        ],
+        "phi_opinion": [
+          8.4431263697287e-09,
+          0.9999992152832762,
+          7.762735974198181e-07,
+          3.814697265625e-06
+        ],
+        "projected_probability": 8.446087618498155e-09
+      }
+    ]
+  },
+  "phase_b": {
+    "mean_safe_harbor_l": 0.651574331171207,
+    "ci_safe_harbor_l": [
+      0.651574331171207,
+      0.651574331171207
+    ],
+    "mean_expert_l": 0.765,
+    "ci_expert_l": [
+      0.765,
+      0.765
+    ],
+    "expert_exceeds_sh_count": 100,
+    "expert_exceeds_sh_pct": 100.0,
+    "mean_trust_threshold": 0.7239714790791193
+  },
+  "phase_c": {
+    "source_l": 0.95,
+    "chain_opinions": [
+      [
+        0.95,
+        0.02,
+        0.030000000000000044,
+        0.5
+      ],
+      [
+        0.8122499999999999,
+        0.08762,
+        0.10013000000000016,
+        0.125
+      ],
+      [
+        0.6944737499999999,
+        0.15057422,
+        0.15495203000000013,
+        0.03125
+      ],
+      [
+        0.5937750562499999,
+        0.20918459882,
+        0.19704034493,
+        0.0078125
+      ]
+    ],
+    "degradation_pct": [
+      0.0,
+      14.500000000000002,
+      26.897500000000008,
+      37.49736250000001
+    ],
+    "final_l": 0.5937750562499999,
+    "theoretical_l": 0.5937750562499999,
+    "theory_matches": true
+  },
+  "phase_d": {
+    "n_analyzed": 100,
+    "mean_hipaa_l": 8.443126369728699e-09,
+    "mean_dual_l": 7.598813732755829e-11,
+    "ci_dual_l": [
+      7.598813732755829e-11,
+      7.598813732755829e-11
+    ],
+    "composite_leq_min_count": 100,
+    "composite_leq_min_pct": 100.0
+  }
+}

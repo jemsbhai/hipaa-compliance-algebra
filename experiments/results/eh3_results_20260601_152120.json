@@ -1,0 +1,165 @@
+{
+  "timestamp": "20260601_152120",
+  "tenseal_version": "0.3.16",
+  "baseline": {
+    "n_trials": 10000,
+    "mean_ms": 0.0018070700985845177,
+    "p50_ms": 0.001800013706088066,
+    "p95_ms": 0.001900014467537403,
+    "p99_ms": 0.002300017513334751
+  },
+  "accuracy": {
+    "n_trials": 1000,
+    "mult_depth": 1,
+    "raw_error": {
+      "l_mean": 3.2441311672769433e-08,
+      "l_max": 1.1879398253977769e-07,
+      "l_p99": 1.0290214469299562e-07,
+      "v_mean": 8.057638785486862e-09,
+      "v_max": 6.611788427868248e-08,
+      "u_mean": 3.05270092771856e-08,
+      "u_max": 1.1802510102576491e-07
+    },
+    "normalized_error": {
+      "l_mean": 3.244147373697003e-08,
+      "l_max": 1.1879457517682823e-07,
+      "v_mean": 8.057378742697477e-09,
+      "v_max": 6.611726666161388e-08
+    },
+    "constraint_violation": {
+      "raw_mean": 6.697619125972665e-13,
+      "raw_max": 6.703526622686695e-13,
+      "normalized_mean": 2.0539125955565396e-17,
+      "normalized_max": 2.220446049250313e-16
+    },
+    "hypothesis_results": {
+      "H_EH3_1": true,
+      "H_EH3_2": true
+    }
+  },
+  "latency": {
+    "n_trials": 1000,
+    "keygen_ms": 204.0555999847129,
+    "encrypt_ms": {
+      "mean": 19.30656669999007,
+      "p50": 19.260950008174405,
+      "p95": 20.524194990866818,
+      "p99": 21.314124010386877,
+      "min": 17.85050000762567,
+      "max": 22.700599976815283
+    },
+    "compute_ms": {
+      "mean": 6.103736000077333,
+      "p50": 6.061100022634491,
+      "p95": 6.678925038431771,
+      "p99": 7.309558010310866,
+      "min": 5.535800009965897,
+      "max": 8.477499999571592
+    },
+    "decrypt_ms": {
+      "mean": 1.956547100446187,
+      "p50": 1.928949961438775,
+      "p95": 2.151074961875565,
+      "p99": 2.680589978699572,
+      "min": 1.7108999891206622,
+      "max": 3.5314999986439943
+    },
+    "total_ms": {
+      "mean": 27.367215900158044,
+      "p50": 27.335349994245917,
+      "p95": 28.847644981578924,
+      "p99": 29.902755975490436,
+      "min": 25.43769998010248,
+      "max": 31.087899988051504
+    },
+    "hypothesis_results": {
+      "H_EH3_3": true
+    }
+  },
+  "depth_study": {
+    "max_depth": 5,
+    "n_trials_per_depth": 100,
+    "depth_results": [
+      {
+        "depth": 1,
+        "successes": 100,
+        "failures": 0,
+        "error_l_mean": 3.337597146060856e-08,
+        "error_l_max": 1.067534259879821e-07,
+        "error_l_p99": 8.261853227442563e-08,
+        "error_v_mean": 6.222246936998799e-09,
+        "error_v_max": 3.9944123009227894e-08,
+        "constraint_violation_mean": 6.69767574734692e-13,
+        "constraint_violation_max": 6.701306176637445e-13,
+        "within_epsilon_001": 100.0,
+        "within_epsilon_01": 100.0
+      },
+      {
+        "depth": 2,
+        "successes": 100,
+        "failures": 0,
+        "error_l_mean": 9.152379055547485e-08,
+        "error_l_max": 4.273818040578803e-07,
+        "error_l_p99": 3.338902011884586e-07,
+        "error_v_mean": 7.729629181926767e-08,
+        "error_v_max": 3.9013441099911006e-07,
+        "constraint_violation_mean": 6.698019916484554e-13,
+        "constraint_violation_max": 6.701306176637445e-13,
+        "within_epsilon_001": 100.0,
+        "within_epsilon_01": 100.0
+      },
+      {
+        "depth": 3,
+        "successes": 100,
+        "failures": 0,
+        "error_l_mean": 5.546599431587463e-07,
+        "error_l_max": 3.96697359411613e-06,
+        "error_l_p99": 3.3367803813422223e-06,
+        "error_v_mean": 7.936838899447185e-07,
+        "error_v_max": 2.1730853480006473e-06,
+        "constraint_violation_mean": 1.338898547587064e-11,
+        "constraint_violation_max": 1.3389511721584313e-11,
+        "within_epsilon_001": 100.0,
+        "within_epsilon_01": 100.0
+      },
+      {
+        "depth": 4,
+        "successes": 100,
+        "failures": 0,
+        "error_l_mean": 3.6675339609863027e-07,
+        "error_l_max": 1.9477769233333664e-06,
+        "error_l_p99": 1.673367083931955e-06,
+        "error_v_mean": 1.3798781697205165e-06,
+        "error_v_max": 3.3795093301591805e-06,
+        "constraint_violation_mean": 1.338901656211533e-11,
+        "constraint_violation_max": 1.338940069928185e-11,
+        "within_epsilon_001": 100.0,
+        "within_epsilon_01": 100.0
+      },
+      {
+        "depth": 5,
+        "successes": 100,
+        "failures": 0,
+        "error_l_mean": 2.0887056466433464e-07,
+        "error_l_max": 2.6518823676990877e-06,
+        "error_l_p99": 1.3211399913135094e-06,
+        "error_v_mean": 1.97490258440014e-06,
+        "error_v_max": 3.6333745965233533e-06,
+        "constraint_violation_mean": 1.3389015451892305e-11,
+        "constraint_violation_max": 1.3389289676979388e-11,
+        "within_epsilon_001": 100.0,
+        "within_epsilon_01": 100.0
+      }
+    ],
+    "hypothesis_results": {
+      "H_EH3_4": true
+    }
+  },
+  "overhead_factor": 15186.189917216401,
+  "hypothesis_summary": {
+    "H-EH3.1 (accuracy < 0.001)": true,
+    "H-EH3.2 (constraint < 0.0001)": true,
+    "H-EH3.3 (latency p50 < 100ms)": true,
+    "H-EH3.4 (depth-3 < 0.01)": true
+  }
+}

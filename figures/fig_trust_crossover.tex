@@ -1,0 +1,52 @@
+% ===================================================================
+% FIGURE: Trust Threshold Crossover (from E4 results)
+% Expert Determination vs Safe Harbor across trust levels
+% Requires: \usepackage{pgfplots} in preamble
+% ===================================================================
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=\columnwidth,
+    height=5.5cm,
+    xlabel={Expert trust level $t$},
+    ylabel={De-identification confidence $l$},
+    xmin=0, xmax=1.05,
+    ymin=0, ymax=1.0,
+    legend style={at={(0.02,0.98)}, anchor=north west, font=\footnotesize},
+    grid=major,
+    grid style={gray!30},
+    every axis plot/.append style={thick},
+]
+
+% Expert Determination: l_ED = t * 0.90
+\addplot[blue, domain=0:1, samples=50] {x * 0.90};
+\addlegendentry{Expert ($l_{\text{expert}} = 0.90$)}
+
+% Safe Harbor (all 18 present): 0.95^18 = 0.3972
+\addplot[red, dashed, domain=0:1] {0.3972};
+\addlegendentry{Safe Harbor ($n=18$, $p=0.95$)}
+
+% Safe Harbor (Synthea, 6 present): 0.6516
+\addplot[red!60, dotted, domain=0:1] {0.6516};
+\addlegendentry{Safe Harbor ($n=6$, $p=0.95$, $q=0.99$)}
+
+% Crossover markers
+\addplot[only marks, mark=*, mark size=2pt, black, fill=black]
+    coordinates {(0.4413, 0.3972)};
+\addplot[only marks, mark=*, mark size=2pt, black, fill=black]
+    coordinates {(0.7240, 0.6516)};
+
+% Threshold annotations
+\draw[gray, thin, dashed] (axis cs:0.4413,0) -- (axis cs:0.4413,0.3972);
+\draw[gray, thin, dashed] (axis cs:0.7240,0) -- (axis cs:0.7240,0.6516);
+
+\node[font=\scriptsize, anchor=south] at (axis cs:0.4413,0.41) {$t^* = 0.441$};
+\node[font=\scriptsize, anchor=south west] at (axis cs:0.7240,0.66) {$t^* = 0.724$};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Expert Determination vs.\ Safe Harbor de-identification confidence across trust levels. Crossover points (Theorem~2): Expert exceeds Safe Harbor when $t > p^{n} q^{18-n}/l_{\text{expert}}$. With all 18 identifiers removed at $p = 0.95$, an expert trusted above $t^* = 0.441$ yields higher confidence than Safe Harbor; for the Synthea profile ($n = 6$, $q = 0.99$) the threshold is $t^* = 0.724$.}
+\label{fig:trust_crossover}
+\end{figure}

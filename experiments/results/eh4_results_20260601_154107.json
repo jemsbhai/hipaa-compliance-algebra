@@ -1,0 +1,130 @@
+{
+  "timestamp": "20260601_154107",
+  "scenarios": [
+    {
+      "name": "Conflicting Audit Evidence",
+      "context": "Two independent auditors assess same entity. A finds compliance, B finds violations.",
+      "binary": "50% / INCONCLUSIVE",
+      "algebra": {
+        "l": 0.085,
+        "v": 0.81,
+        "u": 0.105,
+        "a": 0.25,
+        "P": 0.11125
+      },
+      "distinction": "Binary hides conflict. Algebra: l=0.085, v=0.810, u=0.105 reveals strong conflicting evidence. Response: investigate discrepancy, not coin flip."
+    },
+    {
+      "name": "New Vendor (No History)",
+      "context": "New cloud vendor for PHI storage. No audit history, no breach history.",
+      "binary": "FAIL (both new vendor and known violator)",
+      "algebra_vendor": {
+        "l": 0.0,
+        "v": 0.0,
+        "u": 1.0,
+        "a": 0.5,
+        "P": 0.5
+      },
+      "algebra_violator": {
+        "l": 0.0,
+        "v": 1.0,
+        "u": 0.0,
+        "a": 0.5,
+        "P": 0.0
+      },
+      "distinction": "Binary: both get FAIL. Algebra: vendor (l=0, v=0, u=1, P=0.5) vs violator (l=0, v=1, u=0, P=0.0). Vendor needs evidence gathering; violator needs blocking."
+    },
+    {
+      "name": "BAA Chain (3 Organizations)",
+      "context": "Hospital (strong) -> Lab (moderate) -> Billing (weak).",
+      "binary": "FAIL (any weak link fails entire chain)",
+      "algebra_hospital": {
+        "l": 0.92,
+        "v": 0.03,
+        "u": 0.05,
+        "a": 0.5,
+        "P": 0.945
+      },
+      "algebra_after_lab": {
+        "l": 0.5865,
+        "v": 0.17065,
+        "u": 0.24285,
+        "a": 0.125,
+        "P": 0.616856
+      },
+      "algebra_after_billing": {
+        "l": 0.17595,
+        "v": 0.50239,
+        "u": 0.32166,
+        "a": 0.03125,
+        "P": 0.186002
+      },
+      "degradation_lab_pct": 36.3,
+      "degradation_billing_pct": 80.9,
+      "distinction": "Binary: FAIL with no guidance. Algebra: l degrades 0.920 -> 0.587 (lab) -> 0.176 (billing). Billing link is primary risk driver (81% total degradation)."
+    },
+    {
+      "name": "Stale Assessment (2 Years Old)",
+      "context": "Strong assessment 2 years ago (l=0.90). No reassessment since.",
+      "binary": "PASS (unchanged, no expiration mechanism)",
+      "decay_curve": [
+        {
+          "period": "Day 0 (fresh)",
+          "days": 0,
+          "l": 0.9,
+          "v": 0.05,
+          "u": 0.05
+        },
+        {
+          "period": "6 months",
+          "days": 180,
+          "l": 0.6394,
+          "v": 0.0355,
+          "u": 0.3251
+        },
+        {
+          "period": "1 year",
+          "days": 365,
+          "l": 0.45,
+          "v": 0.025,
+          "u": 0.525
+        },
+        {
+          "period": "2 years",
+          "days": 730,
+          "l": 0.225,
+          "v": 0.0125,
+          "u": 0.7625
+        },
+        {
+          "period": "3 years",
+          "days": 1095,
+          "l": 0.1125,
+          "v": 0.0063,
+          "u": 0.8812
+        }
+      ],
+      "distinction": "Binary: PASS forever. Algebra: l decays 0.900 -> 0.225 over 2 years, u grows 0.050 -> 0.762. Triggers reassessment when u exceeds threshold."
+    },
+    {
+      "name": "Multinational Clinical Trial (HIPAA + GDPR)",
+      "context": "US hospital + EU partner. Strong HIPAA, uncertain GDPR.",
+      "binary": "FAIL (both 'uncertain' and 'violation' get same FAIL)",
+      "algebra_dual_uncertain": {
+        "l": 0.352,
+        "v": 0.184,
+        "u": 0.464,
+        "a": 0.15,
+        "P": 0.4216
+      },
+      "algebra_dual_violation": {
+        "l": 0.044,
+        "v": 0.904,
+        "u": 0.052,
+        "a": 0.15,
+        "P": 0.0518
+      },
+      "distinction": "Binary: both FAIL. Algebra: uncertain dual (l=0.352, u=0.464) vs violation dual (l=0.044, v=0.904). Uncertain: proceed with monitoring. Violation: halt processing."
+    }
+  ]
+}

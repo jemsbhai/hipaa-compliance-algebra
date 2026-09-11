@@ -1,0 +1,24 @@
+% ===================================================================
+% TABLE: Cross-Resource-Type PHI Profiles (from E5 results)
+% Shows how different FHIR resource types have different identifier counts
+% and correspondingly different PHI classification confidence
+% ===================================================================
+
+\begin{table}[t]
+\centering
+\caption{PHI classification across FHIR R4 resource types. Resources with more HIPAA identifiers have exponentially lower compliance confidence. All predictions match theory.}
+\label{tab:cross_resource}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Resource Type & $n_{\text{IDs}}$ & $l_{\text{PHI}}$ & $v_{\text{PHI}}$ \\
+\midrule
+Condition           & 2 & $1.10 \times 10^{-3}$ & 0.993 \\
+Observation         & 3 & $5.79 \times 10^{-5}$ & 0.999 \\
+MedicationRequest   & 3 & $5.79 \times 10^{-5}$ & 0.999 \\
+DiagnosticReport    & 5 & $1.60 \times 10^{-7}$ & $\approx 1.0$ \\
+ImagingStudy        & 5 & $1.60 \times 10^{-7}$ & $\approx 1.0$ \\
+Patient             & 6 & $8.44 \times 10^{-9}$ & $\approx 1.0$ \\
+Claim               & 8 & $2.34 \times 10^{-11}$ & $\approx 1.0$ \\
+\bottomrule
+\end{tabular}
+\end{table}

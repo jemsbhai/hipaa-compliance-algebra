@@ -1,0 +1,12 @@
+.hypothesis/
+.pytest_cache/
+.benchmarks/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+paper/REVIEWS_RESPONSE.md

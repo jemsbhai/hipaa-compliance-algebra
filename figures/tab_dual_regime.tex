@@ -1,0 +1,19 @@
+% ===================================================================
+% TABLE: Dual-Regime Composition Scenarios (from E3 results)
+% Shows HIPAA, GDPR, and composite opinions for three data states
+% ===================================================================
+
+\begin{table}[t]
+\centering
+\caption{Dual-regime composition across three data scenarios. Composite compliance (Theorem~5) is strictly lower than either individual regime.}
+\label{tab:dual_regime}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+& HIPAA $l$ & GDPR $l$ & Dual $l$ \\
+\midrule
+Raw patient data & $8.44 \times 10^{-9}$ & 0.009 & $7.60 \times 10^{-11}$ \\
+Safe Harbor de-identified & 0.652 & 0.450 & 0.293 \\
+Expert de-identified & 0.765 & 0.550 & 0.421 \\
+\bottomrule
+\end{tabular}
+\end{table}
