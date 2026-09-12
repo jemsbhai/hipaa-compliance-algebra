@@ -1,5 +1,5 @@
 {
-  "timestamp": "20260912_072947",
+  "timestamp": "20260911_164012",
   "table_vi": {
     "rows": {
       "0": {
@@ -49,7 +49,6 @@
   },
   "hypothesis_results": {
     "H_A1": false,
-    "H_A1b_post_hoc": true,
     "H_A2": true
   }
 }

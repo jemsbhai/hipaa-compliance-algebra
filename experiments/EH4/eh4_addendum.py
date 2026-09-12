@@ -16,6 +16,13 @@ Hypotheses (falsifiable):
         (0.900, 0.050, 0.050, 0.925), (0.639, 0.036, 0.325, 0.802),
         (0.450, 0.025, 0.525, 0.713), (0.225, 0.013, 0.762, 0.606),
         (0.113, 0.006, 0.881, 0.553); the 0.70 crossing lies in (365, 730) days.
+        RESULT OF FIRST RUN (2026-09-11): REJECTED at the 730-day row only,
+        because u = 0.7625 exactly is a rounding tie: Python's round() gives
+        0.763 on the binary double, the paper prints 0.762 (half-even, and
+        the row sums to 1.000). Kept as stated; see H-A1b.
+  H-A1b (post hoc, added after the first run, labeled as such): every printed
+        Table VI value lies within 0.0005 (half a unit of the last printed
+        digit) of the computed value, and the crossing lies in (365, 730).
   H-A2  l_D1 rounds to 0.557 (14.5% degradation) and l_D2 to 0.355.
 
 Output: results/eh4_addendum_results.json (+ timestamped archive).
@@ -89,13 +96,17 @@ def run_all() -> dict:
     _RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     print("=== EH4 addendum: traceability of Table VI and workflow Step 3 ===")
     tv = table_vi_rows()
-    h_a1 = tv["first_day_P_below_0_70"] is not None and 365 < tv["first_day_P_below_0_70"] < 730
+    crossing_ok = tv["first_day_P_below_0_70"] is not None and 365 < tv["first_day_P_below_0_70"] < 730
+    h_a1 = crossing_ok
+    h_a1b = crossing_ok
     for days, exp in EXPECTED_TABLE_VI.items():
         r = tv["rows"][days]
         got = (round(r["l"], 3), round(r["v"], 3), round(r["u"], 3), round(r["P"], 3))
         ok = got == exp
+        within = all(abs(x - y) <= 0.0005 + 1e-12 for x, y in zip((r["l"], r["v"], r["u"], r["P"]), exp))
         h_a1 = h_a1 and ok
-        print(f"  day {days:5d}: l={r['l']:.4f} v={r['v']:.4f} u={r['u']:.4f} P={r['P']:.4f} -> {got} {'OK' if ok else 'MISMATCH vs ' + str(exp)}")
+        h_a1b = h_a1b and within
+        print(f"  day {days:5d}: l={r['l']:.4f} v={r['v']:.4f} u={r['u']:.4f} P={r['P']:.4f} -> {got} {'OK' if ok else 'ROUNDING TIE vs ' + str(exp)}; within 0.0005: {within}")
     print(f"  first day with P < 0.70: {tv['first_day_P_below_0_70']}")
 
     s3 = step3_chain()
@@ -106,7 +117,7 @@ def run_all() -> dict:
         "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S"),
         "table_vi": tv,
         "step3_chain": s3,
-        "hypothesis_results": {"H_A1": bool(h_a1), "H_A2": bool(h_a2)},
+        "hypothesis_results": {"H_A1": bool(h_a1), "H_A1b_post_hoc": bool(h_a1b), "H_A2": bool(h_a2)},
     }
     for h, v in results["hypothesis_results"].items():
         print(f"  {h}: {'ACCEPTED' if v else 'REJECTED'}")

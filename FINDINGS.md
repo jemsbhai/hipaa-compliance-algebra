@@ -261,3 +261,21 @@ fhir_read_compliance_opinion, 23 unit tests, 423 tests passing in the touched su
   not from Subjective Logic as such.
 - Interval probabilities [0.85, 0.95] and [0.10, 0.20] are disjoint: conflict is
   visible but no combined value exists.
+
+## EH4 addendum -- traceability of Table VI and workflow Step 3
+
+**Date:** 2026-09-11
+**Status:** COMPLETE (results/eh4_addendum_results.json; first run 20260911_164012)
+
+- Table VI recomputed through decay_opinion (fresh (0.90, 0.05, 0.05, a = 0.5),
+  half-life 365 d): day 180 (0.6394, 0.0355, 0.3251, P 0.8020); day 365
+  (0.4500, 0.0250, 0.5250, 0.7125); day 730 (0.2250, 0.0125, 0.7625, 0.6063);
+  day 1095 (0.1125, 0.0063, 0.8812, 0.5531). All printed values within 0.0005.
+- H-A1 (exact three-decimal equality) REJECTED at one cell: u(730 d) = 0.7625 is a
+  rounding tie; Python round() on the double gives 0.763, the paper prints 0.762
+  (half-even; row sums to 1.000; same value in Table VII and the accepted PDF).
+  Printed value kept. Post-hoc criterion H-A1b (within half a printed unit)
+  added and labeled as post hoc in the script; second run pending.
+- First day with P < 0.70: day 397 (1.09 years). Added to V-C.
+- Step 3: l_source = 0.6516, l_D1 = 0.5571 (14.5% degradation), l_D2 = 0.3551.
+  H-A2 ACCEPTED; printed 0.557 and 0.355 now trace to a saved result.
